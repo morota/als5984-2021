@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<link rel="stylesheet" href="stylesheets/styles.css">
+<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>APSC 5984/20816</title>
+</head>
+<body>
+<p class="menublock"><a href="http://morotalab.org/teaching/teaching.html">Back</a></p>
+
+<h1>APSC 5984/20816 Complex Trait Genomics</h1>
+<h2>Spring 2020</h2>
+
+
+<br>
+<br>
+<h3>Instructor</h3>
+<ul>
+  <li>Name: Gota Morota</li>
+  <li>Office: 368 Litton Reaves Hall</li>
+  <li>Email: morota@vt.edu</li>
+  <li>Web: <a href="http://morotalab.org/">http://morotalab.org/</a></li>
+  <li>Office Hours: By appointment</li>
+</ul>
+
+
+<br>
+<br>
+<h3>Teaching assistant</h3>
+<ul>
+  <li>Name: Haipeng Yu</li>
+  <li>Office: 3695 Litton Reaves Hall</li>
+  <li>Email: haipengyu@vt.edu</li>
+  <li>Web: <a href="https://haipengu.github.io/">https://haipengu.github.io/</a></li>
+  <li>Office Hours: By appointment</li>
+</ul>
+
+
+
+
+<br>
+<br>
+<h3>Time and Location</h3>
+<ul>
+  <li>Mon/Wed/Fri 12:20-1:10pm</li>
+  <li>Wallace Hall 244</li>
+</ul>
+
+
+
+
+
+<br>
+<br>
+<h3>Course Description</h3>
+This course will cover quantitative genetic analysis of complex trait genomics with emphasis on the use of molecular
+markers spanning the entire genome. 
+We will discuss statistical methodologies for connecting phenotypes with high-dimensional genomic information to better understand polygenic traits from both prediction and inference perspectives. 
+Topics will include genomic relatedness, linkage disequilibrium, population stratification, genomic heritability, missing heritability, genome-wide association study, genomic prediction, causal inference, and statistical learning.
+We will use examples from the animal, plant, and human genetics literature. 
+Additional topics will be briefly touched upon, including sequence data, gene expression, epigenetics, and bioinformatics. Homework assignments involve hands-on analysis of simulated and real genomic data available in public repositories. The course will use R/Bioconductor software for statistical computing tools. 
+<br>
+<br>
+<h3>Learning Objectives</h3>
+After taking this course, the student will be able to:
+<ul>
+  <li>understand the statistical theory behind commonly used quantitative methods in genomics</li>
+  <li>apply statistical methods to high-dimensional genomic data and analyze them using statistical computing tools</li>
+  <li>critically review current literature in statistical and quantitative genetics</li>
+</ul>
+
+<br>
+<br>
+<h3>Texts and Reading Materials</h3>
+Lecture slides will be provided on the class website. There will be no required textbook.
+
+<br>
+<br>
+<h3>Syllabus</h3>
+<ul>
+  <li>
+    [<a href="APSC5984Spring2020.pdf">PDF</a>]
+  </li>
+  </ul>
+<br>
+<br>
+
+<h3>Schedule</h3>
+Lectures will be delivered using a whiteboard and presentation slides. 
+<ul>
+  <li>1/22 (W): Course overview and Introduction [<a href="http://morotalab.org/apsc5984-2020/day01/day01.html">HTML1</a>][<a href="http://morotalab.org/apsc5984-2020/day01b/day01b.html">HTML2</a>]</li>
+<li>1/24 (F): Ordinary least-squares and the curse of dimensionality </li>
+  <li>1/27 (M): Ordinary least-squares and the curse of dimensionality </li>
+  <li>1/29 (W): Ordinary least-squares and the curse of dimensionality [<a href="http://morotalab.org/apsc5984-2020/day03/day03.html">R</a>]</li>
+  <li>1/31 (F): Review of allele and genotypic frequencies [<a href="http://morotalab.org/apsc5984-2020/day04/day04.html">R</a>]</li>
+  <li>2/3 (M): Variance of allelic counts [<a href="http://morotalab.org/apsc5984-2020/hw1/hw1.html">HW1</a>]</li>
+  <li>2/5 (W): Linkage disequilibrium [<a href="http://morotalab.org/apsc5984-2020/day07/day07.html">R</a>]</li>
+  <li>2/7 (F): Life Science Seminar by Dr. Scott Lowman [<a href="https://fralinlifesci.vt.edu/VTLSS/spring-2020/3.html">WWW1</a>][<a href="https://vtnews.vt.edu/articles/2020/01/cals-ialr.html">WWW2</a>]</li>
+  <li>2/10 (M): Covariance between allelic counts</li>
+  <li>2/12 (W): Correlation between allelic counts & Marker genotype imputation [<a href="http://morotalab.org/apsc5984-2020/day10/day10.html">R</a>]</li>
+  <li>2/14 (F): Multi-locus additive genetic variance in the presence of linkage disequilibrium</li>
+  <li>2/17 (M): Whole-genome regression - ridge regression 1 [<a href="http://morotalab.org/apsc5984-2020/day12/day12.html">R</a>][<a href="http://morotalab.org/apsc5984-2020/hw2/hw2.html">HW2</a>]</li>
+  <li>2/19 (W): Whole-genome regression - ridge regression 2 [<a href="http://morotalab.org/apsc5984-2020/day13/day13.html">R</a>]</li>
+  <li>2/21 (F): Whole-genome regression - ridge regression 3 [<a href="http://morotalab.org/apsc5984-2020/day14/day14.html">R</a>]</li>
+  <li>2/24 (M): LASSO & Additive genomic relationship matrix [<a href="http://morotalab.org/apsc5984-2020/day15/day15b.html">R</a>]</li>
+  <li>2/26 (W): Additive genomic relationship matrix & Guest lecture by Dr. Luiz Peternelli -  An overview of the sugarcane breeding program and its challenges [<a href="http://morotalab.org/apsc5984-2020/day15/day15.html">R</a>]</li>
+  <li>2/28 (F): Genomic best linear unbiased prediction [<a href="http://morotalab.org/apsc5984-2020/day18/day18.html">R</a>]</li>
+  <li>3/2 (M): Single-marker linear mixed model GWAS - 1 </li>
+  <li>3/4 (W): Single-marker linear mixed model GWAS - 2</li>
+  <li>3/6 (F): Single-marker linear mixed model GWAS - 3 and Generalized least squares [<a href="http://morotalab.org/apsc5984-2020/day20/day20b.html">R</a>][<a href="http://morotalab.org/apsc5984-2020/day20/day20.html">R</a>]</li>
+  <li>3/9 (M): Spring break </li>
+  <li>3/11 (W): Spring break </li>
+  <li>3/13 (F): Spring break </li>
+  <li>3/16 (M): Extended spring break </li>
+  <li>3/18 (W): Extended spring break </li>
+  <li>3/20 (F): Extended spring break </li>
+  <li>3/23 (M): HW1 review and Single-marker linear mixed model GWAS - 4 (moved to an online format due to COVID-19 pandemic) [<a href="http://morotalab.org/apsc5984-2020/hw3/hw3.html">HW3</a>]</li>
+  <li>3/25 (W): Mixed model equations for single-marker linear mixed model GWAS & Ridge regression BLUP [<a href="http://morotalab.org/apsc5984-2020/day28/day28a.html">R</a>][<a href="http://morotalab.org/apsc5984-2020/day28/day28b.html">R</a>]</li>
+  <li>3/27 (F): Genomic BLUP MME & Weighted least squares single-marker GWAS [<a href="http://morotalab.org/apsc5984-2020/day29/day29a.html">R</a>][<a href="http://morotalab.org/apsc5984-2020/day29/day29b.html">R</a>]</li>
+  <li>3/30 (M): Decoding mixed model equations [<a href="http://morotalab.org/apsc5984-2020/day30/day30.html">R</a>]</li>
+  <li>4/1 (W): Decoding mixed model equations & Single-marker MLM GWAS using GAPIT [<a href="http://morotalab.org/apsc5984-2020/day31/day31.html">R</a>]</li>
+  <li>4/3 (F): Cross-validation for genomic prediction - 1 [<a href="http://morotalab.org/apsc5984-2020/day32/day32.html">R</a>]</li>
+  <li>4/6 (M): Compressed mixed linear model GWAS & Cross-validation for genomic prediction - 2 [<a href="http://morotalab.org/apsc5984-2020/day33/day33.html">R</a>][<a href="http://morotalab.org/apsc5984-2020/hw4/hw4.html">HW4</a>]</li>
+  <li>4/8 (W): A list of papers for Zoom presentations [<a href="http://morotalab.org/apsc5984-2020/day34/day34.txt">TXT</a>]</li>
+  <li>4/10 (F): Multiple testing correction in GWAS [<a href="http://morotalab.org/apsc5984-2020/day35/day35.html">HTML</a>]</li>
+  <li>4/13 (M): Variance components </li>
+    <li>4/15 (W): Variance components </li>
+  <li>4/17 (F): Variance components [<a href="http://morotalab.org/apsc5984-2020/day38/day38.html">HTML</a>]</li>
+  <li>4/20 (M): HW5 [<a href="http://morotalab.org/apsc5984-2020/hw5/hw5.html">HW5</a>]</li>
+  <li>4/22 (W): Bayesian ridge regression & Bayesian LASSO [<a href="http://morotalab.org/apsc5984-2020/day39/day39.html">HTML</a>]</li>
+  <li>4/24 (F): Bayesian alphabet [<a href="http://morotalab.org/apsc5984-2020/day40/day40.html">HTML</a>]</li>
+  <li>4/27 (M): Estimating genomic heritability from Bayesian marker-based regression models [<a href="http://morotalab.org/apsc5984-2020/day41/day41.html">HTML</a>]</li>
+  <li>4/29 (W): Student presentations</li>
+  <li>5/1 (F): Student presentations</li>
+  <li>5/4 (M): Final exam [<a href="http://morotalab.org/apsc5984-2020/final/final.html">HTML</a>]</li>
+</ul>
+
+
+
+</body>
+</html>
